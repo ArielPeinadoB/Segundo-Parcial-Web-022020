@@ -1,0 +1,19 @@
+Ariel Gerardo Peinado Barrientos
+0902-14-20076
+Desarrollo Web
+Ing. Edgar Raul Molina
+
+para poder visualizar el contenido hay que hacer la migracion a la bd
+
+tomando en cuenta los siguientes pasos:
+
+	1. tener habilitado xampp
+		apache
+		mysql
+
+	2. hacer la migracion con el comando:
+		en la direccion: C:\xampp\htdocs\producto>  php artisan migrate
+
+	3. si anteriormente ya habia hecho una migracion donde la carpeta se llama igual , es
+	decir donde la carpeta donde se crean los archivos de composer hay que hacer un rollback
+	comando en la direccion: C:\xampp\htdocs\producto>  php artisan migrate:rollback
